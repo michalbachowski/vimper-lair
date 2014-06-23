@@ -23,7 +23,7 @@ autocmd! bufwritepost $MYVIMRC source %
 filetype plugin indent on
 syntax on
 set background=dark
-colorscheme ir_black
+colorscheme wombat256mod
 set visualbell
 
 nnoremap ' `
