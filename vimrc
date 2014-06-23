@@ -201,7 +201,10 @@ nmap <F10> :SCCompileRun<cr>
 " ==============================================================================
 " Powerline
 " ==============================================================================
-let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set nocompatible   " Disable vi-compatibility
+let g:Powerline_symbols = 'unicode'
+set t_Co=256"
 
 " ==============================================================================
 " CtrlP
