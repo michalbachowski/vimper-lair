@@ -107,6 +107,14 @@ set scrolloff=5
 " cope (Error list)
 nnoremap <Leader>E :cope <CR>
 
+" Bubble lines
+inoremap <C-K> <Esc>:m-2<CR>==gi
+inoremap <C-J> <Esc>:m+<CR>==gi
+"nnoremap <C-Up> :m-2<CR>==
+"nnoremap <C-Down> :m+<CR>==
+vnoremap <C-K> :m-2<CR>gv=gv
+vnoremap <C-J> :m'>+<CR>gv=gv
+
 " Move around windows
 map <C-Up> <C-w>k
 map <C-Down> <C-w>j
