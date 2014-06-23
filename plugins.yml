@@ -29,7 +29,6 @@ plugins:
   tagbar: git://github.com/majutsushi/tagbar.git
   unimpaired: git://github.com/tpope/vim-unimpaired.git
   webapi: git@github.com:mattn/webapi-vim.git
-  zoomwin: git://github.com/itspriddle/ZoomWin.git
 
   # Look & Feel
   powerline: https://github.com/Lokaltog/vim-powerline.git
