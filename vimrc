@@ -86,6 +86,9 @@ set noswapfile
 " Status bar
 set laststatus=2
 
+" Remove whitespaces
+nmap <silent> <leader>ww :%s/\s\+$//e<CR> :echo "Whitespace removed"<CR>
+
 " Cursor line
 set cursorline
 
