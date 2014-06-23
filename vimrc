@@ -358,9 +358,13 @@ let g:SuperTabLongestHighlight = 1
 " ==============================================================================
 " IDE layout (NERDTree + Tagbar opened by default)
 " ==============================================================================
-autocmd VimEnter *.py TagbarOpen
-autocmd VimEnter *.py NERDTree
-autocmd VimEnter *.py wincmd l
+" this actually doesn't work...
+" let g:nerdtree_tabs_open_on_console_startup = 1
+"autocmd VimEnter *.py nested :call tagbar#autoopen(0)
+"autocmd FileType *.py nested :call tagbar#autoopen(0)
+"autocmd BufEnter *.py :call tagbar#autoopen(0)
+"autocmd VimEnter *.py NERDTree
+"autocmd VimEnter *.py wincmd l
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.after"))
