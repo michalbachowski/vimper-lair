@@ -63,6 +63,7 @@ set listchars=tab:>·,trail:·,extends:>,precedes:< ",eol:$
 set pastetoggle=<F9>
 nmap <silent> <leader>ww :%s/\s\+$//e<CR> :echo "Whitespace removed"<CR>
 nmap <silent> <leader>wt :set list!<CR>
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Searching
 set hlsearch
@@ -85,9 +86,6 @@ set noswapfile
 
 " Status bar
 set laststatus=2
-
-" Remove whitespaces
-nmap <silent> <leader>ww :%s/\s\+$//e<CR> :echo "Whitespace removed"<CR>
 
 " Cursor line
 set cursorline
