@@ -28,6 +28,7 @@ plugins:
   unimpaired: git://github.com/tpope/vim-unimpaired.git
   webapi: git@github.com:mattn/webapi-vim.git
   zoomwin: git://github.com/itspriddle/ZoomWin.git
+  jedi: git://github.com/davidhalter/jedi-vim.git
 
   # Look & Feel
   powerline: https://github.com/Lokaltog/vim-powerline.git
