@@ -355,6 +355,13 @@ map <C-g> :RopeGotoDefinition<CR>
 let g:SuperTabLongestHighlight = 1
 let g:SuperTabLongestHighlight = 1
 
+" ==============================================================================
+" IDE layout (NERDTree + Tagbar opened by default)
+" ==============================================================================
+autocmd VimEnter *.py TagbarOpen
+autocmd VimEnter *.py NERDTree
+autocmd VimEnter *.py wincmd l
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.after"))
   source ~/.vimrc.after
