@@ -326,8 +326,30 @@ let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': ['javascript'],
                            \ }
 
+" ==============================================================================
+" Python-Mode
+" ==============================================================================
+
+let g:pymode = 1
+let g:pymode_options = 0
+let g:pymode_syntax = 0
+let g:pymode_rope_guess_project = 1
+let g:pymode_utils_whitespaces = 0
+
+let g:pymode_rope = 1
+let g:pymode_folding = 0
+let g:pymode_rope_auto_project = 1
+let g:pymode_rope_enable_autoimport = 1
+let g:pymode_rope_autoimport_generate = 1
+let g:pymode_rope_autoimport_modules = ["os","shutil","datetime"]
+let g:pymode_rope_vim_completion = 1
+let g:pymode_rope_goto_def_newwin = "tabnew"
+
+let g:pymode_lint = 0
+
+map <C-g> :RopeGotoDefinition<CR>
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.after"))
   source ~/.vimrc.after
 endif
-
