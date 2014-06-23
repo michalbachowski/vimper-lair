@@ -44,6 +44,7 @@ plugins:
   sampler-pack: https://github.com/vim-scripts/Colour-Sampler-Pack.git
   solarized: git://github.com/altercation/vim-colors-solarized.git
   vividchalk: https://github.com/tpope/vim-vividchalk.git
+  wombat256mod: git://github.com/michalbachowski/vim-wombat256mod.git
 
   # syntax
   applescript: git@github.com:vim-scripts/applescript.vim.git
