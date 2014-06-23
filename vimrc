@@ -169,16 +169,12 @@ imap <C-_> <C-r>=GetCloseTag()<CR>
 " ==============================================================================
 " Simple scripts running
 " ==============================================================================
-autocmd FileType coffee map <buffer> <Leader>rr :w<CR>:new<CR>:r!/usr/bin/env coffee # <CR>
-autocmd FileType coffee map <buffer> <Leader>R :w<CR>:!/usr/bin/env coffee %<CR>
 autocmd FileType python map <buffer> <Leader>rr :w<CR>:new<CR>:r!/usr/bin/env python # <CR>
 autocmd FileType python map <buffer> <Leader>R :w<CR>:!/usr/bin/env python %<CR>
-autocmd FileType ruby map <buffer> <Leader>rr :w<CR>:new<CR>:r!/usr/bin/env ruby # <CR>
-autocmd FileType ruby map <buffer> <Leader>R :w<CR>:!/usr/bin/env ruby % <CR>
+autocmd FileType perl map <buffer> <Leader>rr :w<CR>:new<CR>:r!/usr/bin/env perl # <CR>
+autocmd FileType perl map <buffer> <Leader>R :w<CR>:!/usr/bin/env perl %<CR>
 autocmd FileType sh map <buffer> <Leader>rr :w<CR>:new<CR>:r!/usr/bin/env sh # <CR>
 autocmd FileType sh map <buffer> <Leader>R :w<CR>:!/usr/bin/env sh % <CR>
-autocmd FileType javascript map <buffer> <Leader>rr :w<CR>:new<CR>:r!/usr/bin/env node # <CR>
-autocmd FileType javascript map <buffer> <Leader>R :w<CR>:!/usr/bin/env node % <CR>
 
 "
 " ==============================================================================
