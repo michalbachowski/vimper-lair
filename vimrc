@@ -124,7 +124,10 @@ endif
 
 " Error marker at ~80 character
 autocmd BufWinEnter *.py,*.txt,*.rst,*.c,*.cpp let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
-set colorcolumn=81
+if exists("&colorcolumn")
+    execute "set colorcolumn=" . join(range(81,335), ',')
+    highlight ColorColumn ctermbg=235 guibg=#2c2d27
+endif
 
 " Better indentation
 vnoremap < <gv
