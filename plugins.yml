@@ -29,6 +29,7 @@ plugins:
   webapi: git@github.com:mattn/webapi-vim.git
   zoomwin: git://github.com/itspriddle/ZoomWin.git
   jedi: git://github.com/davidhalter/jedi-vim.git
+  selfdot: git://github.com/narfdotpl/selfdot.vim.git
 
   # Look & Feel
   powerline: https://github.com/Lokaltog/vim-powerline.git
