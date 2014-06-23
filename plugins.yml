@@ -12,6 +12,7 @@ plugins:
   indent-object: git://github.com/michaeljsmith/vim-indent-object.git
   matchit: https://github.com/edsono/vim-matchit.git
   multiple-cursors: git://github.com/terryma/vim-multiple-cursors.git
+  mw-utils: git://github.com/MarcWeber/vim-addon-mw-utils.git # required by snipmate
   nerdcommenter: git://github.com/scrooloose/nerdcommenter.git
   nerdtree-tabs: git@github.com:jistr/vim-nerdtree-tabs.git
   nerdtree: git://github.com/lukaszb/nerdtree.git
@@ -21,10 +22,13 @@ plugins:
   rename: git@github.com:vim-scripts/Rename2.git
   repeat: git://github.com/tpope/vim-repeat.git
   singlecompile: git://github.com/xuhdev/SingleCompile.git
+  snipmate: git://github.com/garbas/vim-snipmate.git
+  snippets: git://github.com/honza/vim-snippets.git
   superpy: git://github.com/lukaszb/superpy.git
   supertab: git://github.com/ervandew/supertab.git
   surround: https://github.com/tpope/vim-surround.git
   tagbar: git://github.com/majutsushi/tagbar.git
+  tlib: git://github.com/tomtom/tlib_vim.git # required by snipmate
   unimpaired: git://github.com/tpope/vim-unimpaired.git
   webapi: git@github.com:mattn/webapi-vim.git
   zoomwin: git://github.com/itspriddle/ZoomWin.git
