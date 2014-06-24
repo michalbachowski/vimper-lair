@@ -358,15 +358,9 @@ let g:SuperTabLongestHighlight = 1
 let g:SuperTabLongestHighlight = 1
 
 " ==============================================================================
-" IDE layout (NERDTree + Tagbar opened by default)
+" CommandT
 " ==============================================================================
-" this actually doesn't work...
-" let g:nerdtree_tabs_open_on_console_startup = 1
-"autocmd VimEnter *.py nested :call tagbar#autoopen(0)
-"autocmd FileType *.py nested :call tagbar#autoopen(0)
-"autocmd BufEnter *.py :call tagbar#autoopen(0)
-"autocmd VimEnter *.py NERDTree
-"autocmd VimEnter *.py wincmd l
+nnoremap ff :CommandT<CR>
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.after"))

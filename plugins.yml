@@ -29,6 +29,7 @@ plugins:
   tagbar: git://github.com/majutsushi/tagbar.git
   unimpaired: git://github.com/tpope/vim-unimpaired.git
   webapi: git@github.com:mattn/webapi-vim.git
+  commandt: git@github.com:wincent/Command-T.git
 
   # Look & Feel
   powerline_new: git@github.com:Lokaltog/powerline.git
