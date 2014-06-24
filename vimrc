@@ -98,7 +98,8 @@ set smartindent
 set tabstop=4
 
 "Status line"
-set statusline=%<%f\%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
+set statusline=%<%f\%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \
+            \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P\ b=\%n
 hi StatusLine ctermbg=7 ctermfg=0 gui=undercurl guisp=Yellow
 
 "Sets offset"
@@ -212,6 +213,7 @@ set encoding=utf-8
 set nocompatible   " Disable vi-compatibility
 let g:Powerline_symbols = 'unicode'
 set t_Co=256"
+set rtp+=/Users/mbachows/.vimper/vim/bundle/powerline_new/powerline/bindings/vim
 
 " ==============================================================================
 " CtrlP
