@@ -116,12 +116,6 @@ inoremap <C-J> <Esc>:m+<CR>==gi
 vnoremap <C-K> :m-2<CR>gv=gv
 vnoremap <C-J> :m'>+<CR>gv=gv
 
-" Move around windows
-map <C-Up> <C-w>k
-map <C-Down> <C-w>j
-map <C-Left> <C-w>h
-map <C-Right> <C-w>l
-
 " Use modeline overrides
 set modeline
 set modelines=10
