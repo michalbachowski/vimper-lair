@@ -208,6 +208,7 @@ set nocompatible   " Disable vi-compatibility
 let g:Powerline_symbols = 'unicode'
 set t_Co=256"
 
+set noshowmode
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
