@@ -32,7 +32,6 @@ plugins:
   commandt: git@github.com:wincent/Command-T.git
 
   # Look & Feel
-  powerline_new: git@github.com:Lokaltog/powerline.git
   rainbow-parens: git://github.com/vim-scripts/Rainbow-Parentheses-Improved-and2.git
 
   # colors

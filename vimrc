@@ -207,7 +207,10 @@ set encoding=utf-8
 set nocompatible   " Disable vi-compatibility
 let g:Powerline_symbols = 'unicode'
 set t_Co=256"
-set rtp+=/Users/mbachows/.vimper/vim/bundle/powerline_new/powerline/bindings/vim
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
 
 " ==============================================================================
 " CtrlP
