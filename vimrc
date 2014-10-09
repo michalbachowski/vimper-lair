@@ -146,16 +146,6 @@ imap <D-[> <C-O><<
 imap <C-c> <CR><Esc>O
 
 
-
-" ==============================================================================
-" NERDTree & NERDTreeTabs configuration
-" ==============================================================================
-:nmap <C-N> :execute 'NERDTreeTabsToggle' <CR>
-let NERDTreeIgnore=['\~$', '\.pyc$', '\.orig', '\.swp\*', '__pycache__']
-let NERDTreeHighlightCursorline=1
-let NERDTreeWinSize=50
-
-
 " ==============================================================================
 " Filetypes
 " ==============================================================================
@@ -297,12 +287,6 @@ let g:ctrlp_max_height = 50
 let g:ctrlp_custom_ignore = '\v(build|dist|__pycache__|node_modules|bower_components)[\/]'
 
 " ==============================================================================
-" Tagbar [ctags]
-" ==============================================================================
-" support for extra file types: https://github.com/majutsushi/tagbar/wiki
-nmap <leader>t :TagbarToggle<CR>
-
-" ==============================================================================
 " Gundo
 " ==============================================================================
 nnoremap <C-h> :GundoToggle<CR>
@@ -354,11 +338,6 @@ map <C-g> :RopeGotoDefinition<CR>
 " ==============================================================================
 let g:SuperTabLongestHighlight = 1
 let g:SuperTabLongestHighlight = 1
-
-" ==============================================================================
-" CommandT
-" ==============================================================================
-nnoremap ff :CommandT<CR>
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.after"))

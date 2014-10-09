@@ -14,8 +14,6 @@ plugins:
   matchit: https://github.com/edsono/vim-matchit.git
   multiple-cursors: git://github.com/terryma/vim-multiple-cursors.git
   nerdcommenter: git://github.com/scrooloose/nerdcommenter.git
-  nerdtree-tabs: git@github.com:jistr/vim-nerdtree-tabs.git
-  nerdtree: git://github.com/lukaszb/nerdtree.git
   nrrwrgn: git://github.com/chrisbra/NrrwRgn.git
   pyflakes: git://github.com/vim-scripts/pyflakes.vim.git
   python-mode: git://github.com/klen/python-mode.git
@@ -25,10 +23,8 @@ plugins:
   superpy: git://github.com/lukaszb/superpy.git
   supertab: git://github.com/ervandew/supertab.git
   surround: https://github.com/tpope/vim-surround.git
-  tagbar: git://github.com/majutsushi/tagbar.git
   unimpaired: git://github.com/tpope/vim-unimpaired.git
   webapi: git@github.com:mattn/webapi-vim.git
-  commandt: git@github.com:wincent/Command-T.git
 
   # Look & Feel
   rainbow-parens: git://github.com/vim-scripts/Rainbow-Parentheses-Improved-and2.git
