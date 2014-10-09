@@ -210,18 +210,24 @@ python del powerline_setup
 " Almost all the config was taken from vimfiles repo
 
 " No default mappings.
-let g:ctrlp_map = ''
+let g:ctrlp_map = 'ff'
+
+let g:ctrlp_cmd = 'CtrlPMixed'
 
 " Directory mode for launching ':CtrlP' with no directory argument:
-"   0 - Don't manage the working directory (Vim's CWD will be used).
-"       Same as ':CtrlP $PWD'.
-let g:ctrlp_working_path_mode = 0
+" - r the nearest ancestor that contains one of these directories or files:
+"   .git .hg .svn .bzr _darcs, and your own root markers defined with the
+"   g:ctrlp_root_markers option.
+"
+" - a the directory of the current file; applies when the current working
+"   directory outside of CtrlP isn't a direct ancestor of the directory of the
+"   current file.
+let g:ctrlp_working_path_mode = 'raw'
 
 " Set to list of marker directories used for ':CtrlPRoot'.
 " A marker signifies that the containing parent directory is a "root".  Each
 " marker is probed from current working directory all the way up, and if
 " the marker is not found, then the next marker is checked.
-let g:ctrlp_root_markers = []
 
 " Don't open multiple files in vertical splits.  Just open them, and re-use the
 " buffer already at the front.
@@ -269,6 +275,8 @@ nnoremap <leader><leader>t :<C-U>echoe "Use CTRL-P CTRL-P instead"<Bar>
 nnoremap <leader><leader>b :<C-U>echoe "Use CTRL-P CTRL-O instead"<Bar>
             \ sleep 1<Bar>
             \ CtrlPBuffer<CR>
+
+nnoremap ff  :CtrlPMRU<CR>
 
 " Reverse move and history binding pairs:
 " - For consistency with other plugins that use <C-N>/<C-P> for moving around.
