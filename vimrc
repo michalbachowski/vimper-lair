@@ -277,7 +277,7 @@ nnoremap <leader><leader>b :<C-U>echoe "Use CTRL-P CTRL-O instead"<Bar>
             \ sleep 1<Bar>
             \ CtrlPBuffer<CR>
 
-nnoremap ff  :CtrlPMRU<CR>
+nnoremap ff  :CtrlP<CR>
 
 " Reverse move and history binding pairs:
 " - For consistency with other plugins that use <C-N>/<C-P> for moving around.
