@@ -228,6 +228,7 @@ let g:ctrlp_working_path_mode = 'raw'
 " A marker signifies that the containing parent directory is a "root".  Each
 " marker is probed from current working directory all the way up, and if
 " the marker is not found, then the next marker is checked.
+let g:ctrlp_root_markers = []
 
 " Don't open multiple files in vertical splits.  Just open them, and re-use the
 " buffer already at the front.
