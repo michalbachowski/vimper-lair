@@ -60,6 +60,7 @@ set expandtab
 set list
 set listchars=tab:>·,trail:·,extends:>,precedes:< ",eol:$
 "autocmd filetype html,xml set listchars-=tab:>.
+autocmd FileType make setlocal noexpandtab
 set pastetoggle=<F9>
 nmap <silent> <leader>ww :%s/\s\+$//e<CR> :echo "Whitespace removed"<CR>
 nmap <silent> <leader>wt :set list!<CR>
