@@ -27,6 +27,7 @@ plugins:
   webapi: git@github.com:mattn/webapi-vim.git
 
   # Look & Feel
+  airline: https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
   rainbow-parens: git://github.com/vim-scripts/Rainbow-Parentheses-Improved-and2.git
 
   # colors
