@@ -31,16 +31,7 @@ plugins:
   rainbow-parens: git://github.com/vim-scripts/Rainbow-Parentheses-Improved-and2.git
 
   # colors
-  base16: git@github.com:chriskempson/base16-vim.git
-  getafe: https://github.com/larssmit/vim-getafe.git
-  github: https://github.com/telamon/vim-color-github.git
-  ir_black: git://github.com/lukaszb/vim-irblack.git
-  janus: git://github.com/TechnoGate/janus-colors.git
   molokai: https://github.com/vim-scripts/molokai.git
-  pyte: https://github.com/vim-scripts/pyte.git
-  sampler-pack: https://github.com/vim-scripts/Colour-Sampler-Pack.git
-  solarized: git://github.com/altercation/vim-colors-solarized.git
-  vividchalk: https://github.com/tpope/vim-vividchalk.git
   wombat256mod: git://github.com/michalbachowski/vim-wombat256mod.git
 
   # syntax
