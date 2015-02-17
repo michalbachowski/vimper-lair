@@ -3,9 +3,9 @@ plugins:
   abolish: git://github.com/tpope/vim-abolish.git
   ack: git@github.com:mileszs/ack.vim.git
   auto-pairs: git@github.com:jiangmiao/auto-pairs.git
-  closetag: git://github.com/docunext/closetag.vim.git
+  #closetag: git://github.com/docunext/closetag.vim.git
   ctrlp: git://github.com/kien/ctrlp.vim.git
-  delimit-mate: git@github.com:Raimondi/delimitMate.git
+  #delimit-mate: git@github.com:Raimondi/delimitMate.git
   fugitive: git://github.com/tpope/vim-fugitive.git
   gist: git@github.com:mattn/gist-vim.git
   gundo: git://github.com/sjl/gundo.vim.git
@@ -19,10 +19,9 @@ plugins:
   python-mode: git://github.com/klen/python-mode.git
   rename: git@github.com:vim-scripts/Rename2.git
   repeat: git://github.com/tpope/vim-repeat.git
-  singlecompile: git://github.com/xuhdev/SingleCompile.git
   superpy: git://github.com/lukaszb/superpy.git
   supertab: git://github.com/ervandew/supertab.git
-  surround: https://github.com/tpope/vim-surround.git
+  #surround: https://github.com/tpope/vim-surround.git
   unimpaired: git://github.com/tpope/vim-unimpaired.git
   webapi: git@github.com:mattn/webapi-vim.git
 
@@ -35,11 +34,11 @@ plugins:
   wombat256mod: git://github.com/michalbachowski/vim-wombat256mod.git
 
   # syntax
-  applescript: git@github.com:vim-scripts/applescript.vim.git
-  coffee: git://github.com/kchmck/vim-coffee-script.git
+  #applescript: git@github.com:vim-scripts/applescript.vim.git
+  #coffee: git://github.com/kchmck/vim-coffee-script.git
   css-color: git://github.com/ap/vim-css-color.git
   css3: git@github.com:hail2u/vim-css3-syntax.git
-  django: git://github.com/vim-scripts/django.vim.git
+  #django: git://github.com/vim-scripts/django.vim.git
   #go: https://github.com/fatih/vim-go.git
   less: git@github.com:groenewege/vim-less.git
   #riv: git://github.com/Rykka/riv.vim.git # restructuredText
